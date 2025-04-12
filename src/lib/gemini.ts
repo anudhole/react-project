@@ -1,8 +1,8 @@
 
 import { TravelFormData } from "../types";
 
-const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent";
-const GEMINI_API_KEY = "AIzaSyA2DO4hKwB-_R6N4j5y--4x3MF_brE0KLU";
+export const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent";
+export const GEMINI_API_KEY = "AIzaSyA2DO4hKwB-_R6N4j5y--4x3MF_brE0KLU";
 
 export async function generateTravelPlan(formData: TravelFormData): Promise<string> {
   try {
