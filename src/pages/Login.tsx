@@ -24,7 +24,7 @@ export default function Login() {
               <Plane className="w-5 h-5" aria-hidden="true" />
             </div>
             <div>
-              <h1 className="text-2xl font-extrabold text-blue-900 tracking-tight">Travzi</h1>
+              <h1 className="text-2xl font-extrabold text-blue-900 tracking-tight">WanderPlan</h1>
               <p className="text-blue-700 text-xs font-medium">Your AI Travel Companion</p>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function Login() {
         >
           <h2 className="text-2xl font-semibold text-gray-900 mb-2 text-center">Welcome Back</h2>
           <p className="text-gray-600 text-sm mb-6 text-center">
-            Sign in to plan your next adventure with Travzi.
+            Sign in to plan your next adventure with WanderPlan.
           </p>
           <SignIn
             appearance={{
@@ -96,7 +96,7 @@ export default function Login() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Plane className="w-5 h-5 mr-2 text-blue-400" aria-hidden="true" />
-            <span>Travzi © {new Date().getFullYear()}</span>
+            <span>WanderPlan © {new Date().getFullYear()}</span>
           </div>
           <div className="flex space-x-6">
             

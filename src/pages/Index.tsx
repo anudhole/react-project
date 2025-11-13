@@ -337,7 +337,7 @@ const Index = () => {
               <Plane className="w-5 h-5" aria-hidden="true" />
             </div>
             <div>
-              <h1 className="text-2xl font-extrabold text-blue-900 tracking-tight">Travzi</h1>
+              <h1 className="text-2xl font-extrabold text-blue-900 tracking-tight">WanderPlan</h1>
               <p className="text-blue-700 text-xs font-medium">Your AI Travel Companion</p>
             </div>
           </div>
@@ -377,7 +377,7 @@ const Index = () => {
             <SignedOut>
               <SignInButton
                 mode="modal"
-                aria-label="Sign in to Travzi"
+                aria-label="Sign in to WanderPlan"
               >
                 <Button
                   className="group flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"
@@ -441,7 +441,7 @@ const Index = () => {
                   Craft Your Dream Adventure
                 </h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Share your destination and preferences, or explore nearby spots instantly with Travzi's AI.
+                  Share your destination and preferences, or explore nearby spots instantly with WanderPlan's AI.
                 </p>
               </motion.div>
             )}
@@ -462,7 +462,7 @@ const Index = () => {
 
               {/* Benefits Section */}
               <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-lg p-6 border border-gray-100 hidden lg:block">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">Why Choose Travzi?</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Why Choose WanderPlan?</h3>
                 <ul className="space-y-4 text-sm text-gray-700">
                   <li className="flex items-start">
                     <MapPin className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
@@ -556,7 +556,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm">
           <div className="flex items-center mb-4 md:mb-0">
             <Plane className="w-5 h-5 mr-2 text-blue-400" aria-hidden="true" />
-            <span>Travzi © {new Date().getFullYear()}</span>
+            <span>WanderPlan © {new Date().getFullYear()}</span>
           </div>
           <div className="flex space-x-6">
             <Link to="/about" className="hover:text-blue-400 transition-colors">

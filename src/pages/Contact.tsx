@@ -8,7 +8,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-reac
 const contactData = {
   title: "Get in Touch",
   description:
-    "Have questions or need help with your travel plans? Reach out to the Travzi team, and we’ll get back to you as soon as possible.",
+    "Have questions or need help with your travel plans? Reach out to the WanderPlan team, and we’ll get back to you as soon as possible.",
   contactOptions: [
     {
       icon: Mail,
@@ -43,13 +43,13 @@ const contactData = {
     {
       icon: MapPin,
       title: "Visit Us",
-      description: "Travzi HQ, Mumbai, India",
+      description: "WanderPlan HQ, Mumbai, India",
       action: null,
     },
   ],
   cta: {
     title: "Ready to Plan?",
-    description: "Start your next adventure with Travzi’s AI-powered travel planning.",
+    description: "Start your next adventure with WanderPlan’s AI-powered travel planning.",
     buttonText: "Plan Your Trip",
     link: "/plan",
   },
@@ -69,13 +69,13 @@ const Header = () => (
           <Plane className="w-5 h-5" aria-hidden="true" />
         </div>
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">Travzi</h1>
+          <h1 className="text-2xl font-bold text-gray-900">WanderPlan</h1>
           <p className="text-blue-600 text-xs font-medium">Your AI Travel Companion</p>
         </div>
       </div>
       <nav className="flex items-center space-x-4">
         <SignedOut>
-          <SignInButton aria-label="Sign in to Travzi" mode="modal">
+          <SignInButton aria-label="Sign in to WanderPlan" mode="modal">
             <Button className="flex items-center px-4 py-2 text-sm text-white bg-blue-600 rounded-md hover:bg-blue-700">
               <Users className="w-4 h-4 mr-2" />
               Sign In
@@ -171,7 +171,7 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
       <div className="flex items-center gap-2">
         <Plane className="w-5 h-5 text-blue-400" aria-hidden="true" />
-        <span>Travzi © {new Date().getFullYear()}</span>
+        <span>WanderPlan © {new Date().getFullYear()}</span>
       </div>
       <div className="flex gap-6">
         <Link to="/about" className="hover:text-blue-400">About</Link>
