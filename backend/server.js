@@ -1,14 +1,11 @@
-const express = require("express");
+const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000;
 
-app.use(express.json());
-
-app.get("/", (req, res) => {
-  res.send("Backend server is running");
+app.get('/', (req, res) => {
+  res.send('API is running...');
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
-const sampleRoutes = require("./routes/sampleRoutes");
-app.use("/api", sampleRoutes);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
