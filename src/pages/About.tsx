@@ -4,7 +4,7 @@ import { Plane, Users, MapPin, Compass } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
-
+//about page
 const About = () => {
 
   return (
