@@ -9,3 +9,8 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+const connectDB = require('./config/db');
+require('dotenv').config();
+
+connectDB();
