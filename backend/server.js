@@ -14,3 +14,6 @@ const connectDB = require('./config/db');
 require('dotenv').config();
 
 connectDB();
+
+const sampleRoute = require('./routes/sampleRoute');
+app.use('/api', sampleRoute);
